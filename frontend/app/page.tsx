@@ -15,7 +15,8 @@ export default function Home() {
           <p>What will you make?</p>
         </ScrollytellingSection>
         <ScrollytellingSection id="section2">
-          <p>United by the vision of creation, innovation, and invention.
+          <p className="max-w-md">
+            United by the culture of creation, innovation, and invention.
             We compete in the National Inventors' Hall of Fame collegiate competition
           </p>
         </ScrollytellingSection>
