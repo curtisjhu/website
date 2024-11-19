@@ -4,11 +4,9 @@ import { motion } from "motion/react";
 export default function ScrollytellingSection({
     children,
     id="",
-    fullHeight=false,
 }: Readonly<{
     children: React.ReactNode;
     id?: string;
-    fullHeight?: boolean;
 }>) {
     return (
         <motion.section
